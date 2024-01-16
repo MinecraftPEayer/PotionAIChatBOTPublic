@@ -1,0 +1,9 @@
+node_modules
+.env
+logs
+allowed_users.json
+blocked_users.json
+allowed_channels.json
+blocked_channels.json
+default_history.json
+history.json
