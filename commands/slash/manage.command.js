@@ -13,10 +13,10 @@ module.exports = {
             .setDescription('強制清除紀錄'))
         .addSubcommand(subCmd => subCmd
             .setName('allowchannel')
-            .setDescription('強制清除紀錄'))
+            .setDescription('允許頻道'))
         .addSubcommand(subCmd => subCmd
             .setName('blockchannel')
-            .setDescription('強制清除紀錄')),
+            .setDescription('禁止頻道')),
     async execute(interaction) {
         if (interaction.user.id !== config.ownerID) return
 
